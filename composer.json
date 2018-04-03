@@ -1,0 +1,30 @@
+{
+    "name": "meiko/laravel-uuid",
+    "description": "Provides UUID field to models",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Meiko Oy",
+            "email": "info@meiko.fi"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "webpatser/laravel-uuid": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "orchestra/testbench": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Meiko\\Uuid\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Meiko\\Uuid\\Tests\\": "tests/"
+        }
+    }
+}
