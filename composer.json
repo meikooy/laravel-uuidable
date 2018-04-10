@@ -1,5 +1,5 @@
 {
-    "name": "meiko/laravel-uuid",
+    "name": "meiko/laravel-uuidable",
     "description": "Provides UUID field to models",
     "type": "library",
     "license": "MIT",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Meiko\\Uuid\\": "src/"
+            "Meiko\\Uuidable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Meiko\\Uuid\\Tests\\": "tests/"
+            "Meiko\\Uuidable\\Tests\\": "tests/"
         }
     }
 }

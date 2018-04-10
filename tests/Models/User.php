@@ -1,9 +1,9 @@
 <?php
 
-namespace Meiko\Uuid\Tests\Models;
+namespace Meiko\Uuidable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
-use Meiko\Uuid\Uuidable;
+use Meiko\Uuidable\Uuidable;
 
 class User extends EloquentModel
 {

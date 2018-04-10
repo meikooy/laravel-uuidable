@@ -1,5 +1,5 @@
 <?php
-namespace Meiko\Uuid;
+namespace Meiko\Uuidable;
 
 use Webpatser\Uuid\Uuid;
 

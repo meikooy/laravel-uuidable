@@ -1,6 +1,6 @@
 <?php
 
-namespace Meiko\Uuid\Tests;
+namespace Meiko\Uuidable\Tests;
 
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Meiko\Uuid\Tests;
+namespace Meiko\Uuidable\Tests;
 
-use Meiko\Uuid\Tests\Models\User;
+use Meiko\Uuidable\Tests\Models\User;
 
 class UuidTraitTest extends TestCase
 {
